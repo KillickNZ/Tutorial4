@@ -1,8 +1,6 @@
 
 import org.junit.jupiter;
-
 import org.junit.Assert;
-import org.junit.jupiter.api.Assertions;
 
 public class TestCalc {
 
