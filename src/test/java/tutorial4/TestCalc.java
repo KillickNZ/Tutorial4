@@ -1,5 +1,6 @@
 package tutorial4;
 
+import java.util.*;
 import junit.framework.TestCase;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,7 +15,7 @@ public class TestCalc extends Calc{
 
     @Test
     public void testsubract(){
-        assertEquals(10, Calc.add(20, 10));
+        assertEquals(10, Calc.subtract(20, 10));
     }
 
 
