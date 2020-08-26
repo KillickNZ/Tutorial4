@@ -1,8 +1,10 @@
+package tutorial4;
 
-import org.junit.jupiter;
-import org.junit.Assert;
+import junit.framework.TestCase;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class TestCalc {
+public class TestCalc extends Calc{
 
 
     @Test
